@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "Geist Mono", SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-pulse-slow: pulse-slow 8s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+
+  @keyframes pulse-slow {
+    0%, 100% {
+      opacity: 0.15;
+    }
+    50% {
+      opacity: 0.3;
+    }
+  }
+}
+
+/* Custom global rules for visual excellence */
+html, body {
+  background-color: #030712; /* gray-950 */
+  color: #f3f4f6; /* gray-100 */
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  height: 100%;
+}
+
+/* Custom scrollbar styling for premium dark mode feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
+
+/* Dynamic layout gradients and animations */
+.glow-bg {
+  position: absolute;
+  pointer-events: none;
+  border-radius: 9999px;
+  filter: blur(120px);
+  z-index: 0;
+}
+
+/* Highlighted Nav link styles matching Fast Follow Forum */
+.nav-link-active {
+  background-color: rgba(99, 102, 241, 0.08); /* indigo-500/8 */
+  color: #818cf8; /* indigo-400 */
+  border-color: rgba(99, 102, 241, 0.2); /* indigo-500/20 */
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.08);
+}
