@@ -1,0 +1,26 @@
+[
+  {
+    "name": "fruits",
+    "items": [
+      "apple",
+      "orange",
+      "banana"
+    ]
+  },
+  {
+    "name": "vegetables",
+    "items": [
+      "carrots",
+      "broccoli",
+      "spinach"
+    ]
+  },
+  {
+    "name": "colors",
+    "items": [
+      "red",
+      "green",
+      "blue"
+    ]
+  }
+]

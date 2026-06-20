@@ -11,7 +11,9 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"gh": "git log --pretty=format:\"%ad | %h | %s\" --date=format:\"%Y-%m-%d %H:%M:%S\"",
-		"backup": "bash -c 'git archive --format=zip HEAD -o \"../BACKUP/ailanglearn-$(date +%F-%H-%M-%S).zip\"'"
+		"backup": "bash -c 'git archive --format=zip HEAD -o \"../BACKUP/ailanglearn-$(date +%F-%H-%M-%S).zip\"'",
+		"pd": "go run -C cli ./cmd/parse-data",
+		"info": "go run -C cli ./cmd/info"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^7.0.1",
