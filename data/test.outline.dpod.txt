@@ -1,0 +1,12 @@
+- fruits
+	- apple
+	- orange
+	- banana
+- vegetables
+	- carrots
+	- broccoli
+	- spinach
+- colors
+	- red
+	- green
+	- blue

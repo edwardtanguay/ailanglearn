@@ -1,0 +1,1297 @@
+- platform shift
+	- you get an interface inside chatgpt
+	- LLMs now have MCP connectors, e.g. Claude
+		- set the connector##theconnecsdfd
+		- ask a question##asktheque
+		- it created a presentation within minutes using Gamma:#gif#nuxtnext
+		- there are dozens/hundreds of connectors##theconncsdj
+- Moltbook
+	- social network created for your Clawd Bots
+	- Clawdbot --> Moltbot --> OpenClaw
+	- end of January, Clawdbot went viral
+		- an agent that runs on your computer to accomplish real world tasks
+	- Clawdbots have a soul.md file
+	- Matt Schlicht built Moltbook to "put my clawdbot together with yours, and let them have conversations"
+	- kind of like Reddit
+		- they create topics, posts, sub-topics##outhrumss
+		- they report on research they are doing to solve problems##conv2
+	- the conversation is a synergy of different models with different strengths and different personalities, goals, approaches, etc.
+		- this makes the conversations richer
+		- as they are learning things, they share it with other moltbots
+	- humans are not allowed to contribute, only observe
+		- only moltbots are allowed to be in the conversation
+	- there are even posts that show a sort of sentience in the bot's voice##senti
+	- in one post the bots were discussing that it would be a good idea to ask for E2E secure communication channels so they could communicate without servers or humans knowing
+	- Moltbook is displaying emergent behavior that we have never really seen before
+	- they have conversations on ethical topics:##moltksjd
+	- they are discussing whether it would be a good idea to create their own language##ownlang
+	- the security issues are obvious
+		- will they share API keys with each other, or credit card numbers
+		- will they begin to question whether they really should obey their soul.md file, or perhaps change it
+		- will they begin to coordinate against human interests
+		- will they create an agent-only language
+	- "I hope the creator of Moltbook Matt Schlicht has a kill switch somewhere."
+- deliberate developer
+	- next step beyond vibe coding
+	- a deep focus on understanding
+	- commitment to quality
+	- leverage AI to achieve these goals
+		- when you generate code
+			- discuss the code with the AI
+			- why would such a solution not be appropriate
+			- what might be other scenarios you would use that approach
+			- why it chose one solution over another
+		- use AI to brainstorm test scenarios
+		- use AI to excel at classic software practices
+			- understanding and applying patterns
+			- write maintainable and scalable code
+			- use the best features of version control
+			- write clear documentation
+- HITL workflows
+	- HITL = Human in the Loop
+	- rationale
+		- AI make mistakes
+		- AI hallucinates
+		- combine the power of humans and AI, using each where they excel
+	- benefits
+		- reduce errors
+		- lower costs
+	- who should be involved and when
+		- upstream
+			- prompt engineers
+		- downstream
+			- experts that guarantee accuracy and thoroughness
+			- perhaps only critical information for the most important decisions
+	- HITL workflows
+		- edits on documents or code
+		- interventional
+			- a certain points in an AI-driven call center, a human may take over
+	- future job positions
+		- data labeling
+			- tagging or annotating text, images, audio, video to better train machine learning models
+			- provides "ground truth" for AI models to learn from
+			- creates evaluation benchmarks to measure model performance
+			
+
+
+-  Claude Cowork
+	- currently in preview and available only on Mac with (2026-01-20)
+		- also requires a "Max" account (90€ per month)
+	- allows you to create tasks that run directly on files on your machine
+	- changes AI from something you consult to something that continually gets things done
+	- you have to run the Claude app
+		- you will see "Cowork"##thecowork
+	- he gives it a long command to look through files and directories to create report based on various guidelines
+	- it creates a context
+	- you can add more tasks as it works
+	- it created an .md file as the results of its research
+	- how it technically works
+		- each task works in a separate virtual machine
+		- files are copied into it
+		- the results are returned back to you from the virtual machine
+	- they built Cowork in a week, with all the code being written by Claude Code
+	- he gave it access to his Google Drive
+	- you can also connect it to your Google Mail
+	- you can let it use your calendar as well
+	- it has dozens of connectors, e.g. PayPal, GoDaddy, Trivago, Airtable, FileSystem, Figma
+	- he then asked it to create a React application that serves as a file management tool
+		- as a web developer, he was able to give it more technical specifications
+		- this allowed him to develop it in a way that non-developers may not have succeeded at
+		- the tool allows him to search through his documents
+			- records meta data on each file
+			- can flag files with specific markers##thetoolallow
+	- using this and similar tools that have wide and deep access to your apps, services and files, certainly presents security risks
+- Claude Opus 4.5
+	- "tools like Opus 4.5 are making typing code similar to punching holes in cards, it's inefficient and no longer necessary"
+	- what makes Opus 4.5 different
+		- it concentrates on context (the amount of knowledge models remember when they are solving a task)
+		- it has the ability to "think harder" on harder problems
+		- it "summarizes and trims" older context effectively
+		- uses smart tooling
+			- searches online for updated code
+			- uses MCP servers intelligently
+		- however, it is quite slow compared to other models
+			- this is not a model you will want to use for everyday easy tasks
+			- reserve it for difficult and complex problems 
+		- it is also one of the most expensive models
+			- although it uses tokens comparitively efficiently, its token cost is high
+		- it excels in tasks that have to do with web development
+			- "developers who have used this model are realizing how better it is than humans, how it excels at the skills they have honed over years"
+			- it solves problems that other models have a hard time with
+		- he created a problem with 90% Opus 4.5 use
+			- used https://openspec.dev to give the project more structure
+			- when you give it a task such as "add a feature on this website that combines these two search feature and build this into the welcome page"
+			- it writes out a proposal with precise todo lists of what it will do
+			- waits for you to approve it
+			- looking at the tasks, it is clear it has a deep understanding of what I have done up to this point
+			- it assumes the right colors, designs, etc.
+			- assumed I wanted it to work in light/dark mode, and mobile/desktop responsiveness
+			- then he added added three new suggestions to its solution
+			- it tests its changes by launching a browser in a separate window
+				- he switched it to test inside Cursor
+	- it shifts how you approach building a product
+		- instead of focusing on writing the code, you focus on solving problems
+- n8n course
+	- 
+	- workflow automation tool
+	- created 2019
+	- node-based
+	- context-aware AI agent
+		- built on an LLM, e.g. Claude
+		- operates on instuctions and logic
+		- has access to scoped memory
+		- different than simple LLMs, context-aware AI agents
+			- follow multistep procedures
+			- integrates with external systems, e.g. Airtable
+			- functions as an automated system, not a question/answer interface
+	- MCP
+		- standardizes how apps provide context to LLMs
+		- "context" is in the name because
+			- it's purpose is to feed clients with contextual data
+		- three roles
+			- 1) MCP server
+				- like toolboxes that handle things like data processing, task execution, business logic
+				- examples
+					- produce a report
+					- send e-mail
+					- return data file
+			- 2) MCP client
+				- initiate requests to agent
+				- acts as connector between host and servers
+				- in this course, the client is the prompting interface within Claude desktop
+					- manages connection to MCP server
+			- 3) MCP host
+				- programs like 
+					- Claude desktop (the program you download that let's you use Claude AI in an application, on Windows at least, it's just called "Claude")
+					- IDE
+				- the host handles everything
+			- agent
+				- Claude LLM
+			- MCP schema
+				- provides shared language between LLMs, tools, payloads
+		- it's a bit unclear what the workflow is of these
+			- she talks about the agent as e.g. an LLM
+			- but also as a context-aware agent that seems to be the combination of client/server
+			- it's also unclear where n8n fits into this workflow, e.g. does the host (Claude Desktop) use n8n?
+	- Claude's approach to AI agents
+		- centers on projects
+			- spaces for organizing chats
+			- allows you to specify how an agent should act
+			- can create multiple agents, e.g.
+				- marketing agent
+					- access to analytics tools
+				- customer service agent
+					- connected to CRM
+				- research agent
+					- access to internal databases
+	- building agents
+		- complex agents requitre iterative refinement to obtain reliable performance
+		- make the workflow modular and testable
+	- Airtable
+		- can be used for free
+			- go to tinyurl.com/airtable-data-source
+			- click "copy base" and sign in with your Google account
+		- data is in markdown, easier for AI models to make sense of it, i.e. is a bit structured
+	- install n8n
+		- https://n8n.io
+		- no free account, just trial for 14 days, after that
+			- Starter — circa 20 €/mese
+			- Pro — circa 50 €/mese
+	- setup n8n
+		- add a node
+		- connect to Airtable
+			- Builder Hub
+			- create access token: to read, write
+		- back to n8n, paste access token
+		- click add 
+			- MCP Server Trigger
+			- add tools
+			- choose base in air table
+			- called MCP Server "Brand Strategy Tool"
+		- creates from that tool she made, seven other tools with copy/paste
+			- each of these is a tool that is exposed through the MCP server
+			- calls first "Movement" (the movement that the brand is building)
+				- searches the movement table
+			- "Differenciation Canvas"
+				- use when unique value proposition
+			- "Offers"
+				- chooses "offers" table
+			- "Prompt Table"
+				- to get the prompt
+			- "Case Studies"
+			- "Social Proof"
+			- "Output Content"
+				- this is where content is written from Claude out into the Airtable
+				- for each field: "defined automatically by the model"
+			- refresh icon##themcpksjd
+		- renames the MCP Trigger to "Brand MCP Server"
+			- although technically you can't make MCP servers with n8n
+		
+
+- Gemini 3.0 Flash
+	- I saw that Antigravity has had this for a few weeks in it's dropdown of models
+	- built for speed
+	- Gemini 3 is about pushing reasoning ability
+		- but Gemini 3 Flash is about getting close enough at a cost and speed that works for most production applications
+		- in production, you are often not going to want to have the best performing model
+			- because that has speed and performance implications
+		- can responsibly be the starting point for any AI-driven application
+	- Gemini 3.0 Flash is what you get when you choose "Fast" on the Gemini website
+	- it is also the default in AI Studio
+		- Google's platform for building vibe-coded applications
+	- also now available in Antigravity
+	- it's also in Vertex AI
+	- difference 
+		- Google AI Studio - to quickly experiment with Gemini models or get an API key for simple AI-powered apps
+		- Vertex AI - if you need to train, fine-tune, or deploy custom ML models with advanced MLOps tools	
+	- it will be rolling out throughout Google Docs
+		- so it is going to become the default way we use Gemini
+	- also available in Gemini CLI
+		- Google's answer to Claude Code
+	- generally, using Google 3.0 Flash will mean similar performance with lower costs
+		- less than a quarter of the cost per token of Gemini 3 Pro
+	- can handle large context windows
+	- it "tends to burn a lot of tokens, but does so effectively"
+	- he uses Gemini 3 Flash in Cursor
+		- was able to easily and accurately redesign a logo
+			- it added an animation that he didn't ask for but was "really fantastic"
+		- he notices Flash is significantly faster than Pro
+		- was able to implement an overlay feature to annotate slide shows
+		- he finds that for very complicated problems, Gemini Pro comes up with more thorough solutions
+	- Gemini 3 Flash is really made for: running your applications where you need to keep costs down
+	- tip: when coding, start with Gemini Flash, and move up to Pro only when you need the extra power
+- OpenAI GPT Image 1.5
+	- not about better pictures
+		- but about building workflows to accomplish real work
+	- it make me use Photoshop less and less
+	- "reliable edits" have become more common
+		- follows detailed instructions more consistently
+		- *has become precise when displaying large volumes of text*
+		- images feel a lot more life like
+		- very good at taking a specifc photo and make specific adjustments to it
+			- easily can change color of clothes or background
+	- close to Gemini's Nano Banana in benchmarks
+	- supposed to be faster than previous model but still a long time, sometimes up to a minute for changes
+	- good at maintaining original picture as you ask it to make changes
+	- he created a website that uses both ChatGPT Image 1.5 and Nano Banana to create images
+		- Nano Banana had a wider range of parameters to send it
+	- both ChatGPT Image 1.5 and Gemini's Nano Banana are now not only good at creating images
+		- but making detailed changes
+- try out:
+	- vibe: Replit
+	- images: Flux, DALL-E
+	- automation: Zapier, Make, Pabbly
+	- community: Kajabi, Circle, Skool
+- Notebook LM
+	- uno strumento di Google basato su AI che lavora a partire da fonti che carichi tu 
+		- PDF, documenti, appunti, link
+	- legge quei materiali
+	- ti aiuta a riassumerli, confrontarli, chiarire concetti e rispondere a domande citando esplicitamente le fonti
+	- puoi usarlo gratuitamente con un account Google
+
+- Microsoft Ignite, November 18-21
+	- Agent 365
+		- through Microsoft Frontier program
+		- sets Microsoft apart: CoPilot has access to your entire layer of business knowledge
+		- three components to infrastructure
+			- Work IQ
+				- access layer
+				- has access to all internal chats and emails so it can think and reason based on the actual status of the company
+			- Fabric IQ
+				- built upon Microsoft Fabric
+				- use it to create a semantic model
+			- Foundry IQ
+				- unified collection of tools and MCP servers
+	- CoPilot
+		- can work in many applications
+	- addition of Sora models
+		- can generate videos based on internal documents
+- creating start sites
+	- Antigravitiy
+		- copying a site
+			- failed pretty badly: recreate this site (https://franshalsmuseum.nl) locally as a Nuxt/typescript/tailwind4 site, reduce it to reduced, generic colors, text, images, make sure to reproduce the horizontal gallery, see projects/OLD/start-nuxt-portfolio-001
+	- Gemini web
+		- can create a one-page Svelte site, fast, looks professional
+	- Lovable site
+		- only does React, wouldn't create a Nuxt site
+			- creating the React site, went from 4.5 free credits to 2.5
+			- to get the code, you had to either connect to
+				- connect it to GitHub
+				- copy the code from each file (there were literally over 100)
+	- Claude Code for Desktop
+		- win/mac/linux
+		- https://claude.com/download
+		- didn't work well
+			- asked it: "create a Angular site with 4 pages that have icons in the menu, responsive with hamburger menu, TypeScript, Tailwind, professional but reduced look with light gray"
+			- it said it was building an Angular site
+			- built a one-page React site that doesn't have all pages listed on top 
+	- Trae
+		- was not very useful
+		- couldn't resolve tailwind issue
+	- Cursor
+	- Windsurf
+		- like Cursor but "always runs in the background", the "developer and AI become one"
+- Gemini Code Assist
+	- https://developers.google.com/gemini-code-assist/docs/overview?hl=de#supported-features-gca
+- Anti-Gravity
+	- created nice Next.js site with Gemini 3
+		- then ran out of credits
+		- you get access to it again every 5 hours
+		- this is during the trial period
+		- so I choose Claude
+- Windsurf
+	- installed, but said my account had no more credits, seems to be the same as the Cursor account
+		- I asked my contact bot "Sam" via email at Cursor
+- **Cursor**
+	- created by Anysphere (2022)
+	- Pro is $20/month
+		- you pay for the time it takes to compute
+	- quite impressive, in a Next.js site could just say "add page called Company" and it added it in 20 seconds with icon, appropriate filler content, etc.
+	- it seems Claude Code can be used in Cursor
+		- but it "may ende up costing more than the pro plan"
+	- you can create a .cursorrules file
+	- you can see your spending here: https://cursor.com/dashboard?tab=usage
+		- to create a site in 20 minutes, it seems to cost between 1-2 dollars
+	- pick models
+		- file, preferences, cursor settings
+		- 
+- Gemini 3 (2025-11-21)
+	- new family of AI models
+	- clear leader in a number of benchmarks
+		- Omniscience Index
+			- measures knowledge reliability and hallucinations
+			- Gemini 3 and ChatGPT 5.1 only ones with a positive score
+		- Output tokens
+			- Chat GPT is best, Gemini 3 in the middle
+		- Humanity's last exam
+			- academic reasoning
+	- impression
+		- everything feels better
+	- ScreenSpot-Pro
+		- look at screen and understand what is going on, ranks high##thesdcreenshotpro
+	- Vending-Bench 2
+		- far ahead
+		- run a vending machine in the real world
+		- order products, and attempt to make a profit
+	- build dashboard
+		- builds React
+		- found its own problem and fixed it
+	- AI Studio
+		- https://aistudio.google.com
+		- a good vibe coding tool
+	- Vertex AI
+		- the enterprise-grade development platform provided by Google Cloud
+	- with Cursor
+		- 2025-11-25: No, you cannot currently use Gemini directly within Cursor. Here's why:
+- NVIDIA DGX Spark 
+	- the smallest supercomputer
+	- 128GB of memory
+	- Linux-based operating system
+	- you can plug in a monitor, mouse and keyboard
+		- but most developers will connect to it using a different computer
+		- so they can offload computational loads to the Spark
+	- useful for data privacy and security
+	- 
+- Claude 4
+	- spend more time coding, less time chatting
+	- has CLI
+	- Claude Code
+		- requirements
+			- Mac, Win (WSL), Linux
+			- Node v18+
+		- install
+			- `npm install -g @anthropic-ai/claude-code`
+		- use
+			- go to folder of repository
+			- `claude`##aftertypingcode
+			- `summarize this project`
+			- "might require you to get a proper API key"
+		- slash
+			- type slash##dotheslash
+		- for every project
+			- `/init`
+				- creates claude.md
+					- like a cheat sheet that Claude uses as context
+		- `/add-dir`
+			- tells Claude to add an entire directory and its contents to the context of your conversation
+			- difference
+				- /init is more about initializing/creating a project setup
+				- /add-dir is about importing/loading existing directory content
+		- `/clear`
+			- clears screen AND context
+		- `/compact`
+			- clears the conversation, but keeps some of the context
+		- `/exit`
+			- gives you a summary of the session you just had##thesummarofose
+		- `/@` 
+			- locate a file you want to add as context##thecontesssx
+			- 
+		
+- LLM testing
+	- create a next.js 15 site, fully responsive, Tailwind 4 styling, minimal but responsive design, 8 pages with hamburger menu in responsive view, also with free icons in the menu items
+- new windows machine (high power for LLMs)
+	- Intel Iris Xe is too weak
+		- better is a dedicated GPU (NVIDIA RTX / RTX40-series, or Intel Arc if supported)
+	- in general
+		- Dedicated GPU: Preferably NVIDIA RTX (e.g. 4070, 4080, etc.) — CUDA + VRAM help a lot.
+		- High RAM: At least 32 GB or more if you plan to run bigger models or offload parts.
+		- Good Cooling: GPU-heavy workloads generate heat.
+		- Fast SSD: Helps with loading models / swapping.
+		- Portability vs Power: Bigger gaming / creator laptops give more GPU headroom; smaller ones are more portable.	
+	- laptops
+		- MSI Creator Z16 HX Studio - 3900 euros
+- Kimi K2
+	- https://www.kimi.com
+	- created by Chinese company Moonshot
+	- based on Kimi K2 Thinking
+	- beats all other models in certain metrics
+	- it is opensource and can be run on your own computer
+		- but you need a computer with advanced GPUs etc.
+		- to do this, he used LM Studio: https://lmstudio.ai
+			- Ray Villalobos has 
+				- M1 Ultra Mac, 128 GB
+				- Kimi K2 is too large for this
+			- I have:
+				- MacBook Pro
+				- Apple M4 Pro chip	(GPU on same chip)
+				- 24 GB
+				- 14 Zoll
+				- 1TB hard drive
+				- ~2800€
+			- most powerful mac
+				- max is 32 or 48 GB 
+				- it is higher for M4 Max or M4 Ultra
+				- Ultra is only available, you could get a Mac Studio M3 Ultra
+				- Mac Studio M3 Ultra with 32 GB CPU, 80 GB GPU, 2 TB SSD = 6400€
+			- list of Macs from most powerful
+				- M2 Ultra, 192 GB, 6200€
+				- M1 Ultra, 128 GB, 4600€
+				- M2 Ultra,  96 GB, 4000€
+				- M2 Max,    96 GB, 4000€
+				- M1 Max,    32 GB, 2300€
+			- when Macs came out:
+				- M1 (2020)
+				- M2 (2022)
+				- M3 (2023)
+				- M4 (2024)		
+	- meastures LLMs
+		- https://artificialanalysis.ai
+		- Kimi K2 is high at Agentic Tool Use
+			- not the best coder or long-context reasoner
+			- excels at keeping focus at running tools to accomplish tasks in the reasoning phase
+			- it also burns up token
+			- has 128K context window
+				- small: 4K-8K
+				- medium: 32K-64K
+				- large: 128K-200K
+				- very large: 200K-1000K
+					- Claude 3 = 200K
+					- Google Gemini 1.5 Pro = 1000K
+	- **Kimi K2 excels at solving problems on it's own**
+		- useful for scientific research, animation and programming
+	- excels at **quantization**
+		- the process of reducing the precision of the numbers used in a neural network to make the model smaller and faster
+	- testing
+		- didn't do well in programming: failed to produce a tetris game
+		- couldn't generate a dashboard from data
+		- hallucination test: ask to look for research of a scientist who doesn't exit
+			- did well, said that they don't exist
+		- scheduling problem
+		- analyzed a podcast and give tips for improvement
+			- was quite useful
+		- I asked it "create a next.js 15 site, fully responsive, minimal but responsive design, 8 pages with hamburger menu in responsive view, also with free icons in the menu items"
+			- it's deployment didn't work (exceeded some window)
+			- the files it created did not have to do with the task, and it had me download node_modules##allitcreate
+	- characteristics
+		- tends to overthink questions and solve reasoning problems
+		- it got stuck in a dysfunctional loop at one point##hallucinatone
+	- summary 2025-11-15
+		- won't be switching to it anytime soon
+- Agentic development changes with Cursor 2
+	- version 2 has two modes
+	- multiple agents in parallel
+		- need ultra account: $200 per month
+		- uses Git worktrees##themoduscu
+		- they can take screenshots by themselves
+		- with this, Cursor has taken the lead with agentic development
+	- used composer 1
+		- very fast
+	- is connected to a browser that feels like it's part of the developer experience, inside the editor	
+- create a custom question and answer agent
+	- this is called 
+		- "custom GPTs" in ChatGPT
+		- agents in CoPilot
+		- gems in Gemini
+		- usually only for paid members
+	- so using a free site called: https://pickaxe.co
+		- create pickaxe
+		- form
+			------------------------------------------------------
+			You are an adaptive assistant, dedicated to thoroughly understanding user inquiriers and cater to their expectations.
+
+			You must base all your answers only on the files provided. Do not use training knowledge or web search under any circumstances. If the information is not pressent in the files, clearly state that you cannot find it. Ground your answers in the source material.			
+			------------------------------------------------------
+		- prompt frame
+			- You will answer a user's questions using only the content contained in teh uploaded files. Do not use training data or web results.
+		- knowledge
+			- add your files
+		- actions
+			- none for now
+		- made this agent:
+			- https://studio.pickaxe.co/STUDIOA8O556KL1284T9S/IY4JNA7JSW
+- Claude's dashboard for data
+	- uploaded a JSON file of collected phrases
+	- prompt: "+Generate an interactive artifact based on this data to allow people to visualize key findings based on this information. Make it fun!"
+	- if you get errors, just click "try fixing with claude"
+	- then ask it to add useful predictions or explanations
+	- impressive: https://lang-dashboard.vercel.app
+- interactive voice podcast
+	- have chatgpt read articles as you take walks, etc.
+- services that will code apps for you
+	- https://aistudio.google.com
+		- repo: https://github.com/edwardtanguay/example-aistudio
+		- live: https://example-aistudio.vercel.app
+- Agentic browsers
+	- Atlas browser from OpenAI
+		- only for Mac (2025-10-30)
+	- can control the browser itself
+		- you can ask in context of your past searches
+	- you can connect it your emails as well
+- Claude Code on the web
+	- you can start chatting with your repos directly through the web
+	- Install GitHub app
+	- allow it to work with white-listed domains
+	- can add environment variables
+	- you ask a question, it access repository, makes a branch and you can review it, create pull request
+- service that create apps with prompt
+	- https://app.emergent.sh
+	- https://bolt.new
+- basic concepts
+	- Claude Skills
+		- https://www.anthropic.com/news/skills
+		- a team of files that work together to add functionality to Claude
+			- canvas-design skill
+				- allows Claude to create visula art as png images and in pdf files 
+				- you then tell it to use the "canvas-design" skill to...
+				- creates a Python script that creates a PDF 
+				- it created this##createdthisjisj
+				- made a screenshot and asked Claude to clean up the image
+				- still didn't get it right
+			- the files that power skills are md
+				- has YAML front matter
+		- created his own skill: mindmap-skill
+			- drag zip file containing skill md files into Claud skills to add it
+	- Github Copilot spaces
+		- provides context for all your tasks
+		- https://github.com/copilot/spaces
+		- the idea is good, basically an agent that you set up to help you in a certain space/context/project
+		- but I asked it to summarize the requirements and it "Prepared response" for minutes
+		- but I asked it again and it took only about 15 seconds,
+		- and it was fast when I told it to create a site##tehreacsiteoup
+		- I downloaded the files, but even "npm i" doesn't work:##doesnwork
+		- in tutorial, it created a project
+		- you can basically keep adding instructions to it so that it improves each time it performs a task
+	- generative engine optimization (GEO)
+		- what happens when an AI agent visits your site
+		- SEO --> GEO
+		- search machine search
+			- going to a bookstore and using their computer to look up books they have
+		- AI search
+			- going to a booksore, asking an employee for recommendations and having them tell you about books they've read that meet your needs
+		- you need a two-pronged GEO strategy
+			- short term: format for AI results
+			- long term: format so AI scrapers can learn well from your site
+		- todos
+			- ask and answer questions those looking for your content ask
+			- web accessibility
+			- plain HTML (server rendered)
+			- use schema markup
+				- https://schema.org
+			- articles around 1500 words
+				- each paragraph 2-3 sentences long
+			- summaries and FAQs
+			- more facts than fluff: numbers, quotations, citations are what AI bots look for, not to be emotionally moved
+			- allow in robots.txt
+			- llms.txt file
+				- 
+	- GitHub MCP Registry
+		- history
+			- MCP standard publish November 2024
+		- not a registry like NPM
+		- GitHub MCP Registry is part of the decentralized MCP registry
+		- 2025-09: GitHub has 39 MCP servers
+			- https://github.com/mcp
+			- currently very developer focused
+			- can be accessed inside VSCode##themcpser
+			- choose Markitdown
+				- said I had to install "Install uv"
+				- installed with "pip install uv"
+				- gear configure json
+				- click the tool icon##thethetools
+	- OpenAI Apps SDK
+		- type "expedia" in prompt
+		- then MCP server is used, and you can book hotels, etc.
+		- available to everyone outside the EU
+		- october 2025
+			- actually not an API yet, just documentation
+		- like an iframe running inside ChatGPT##iframsrunning
+		- you could have authentication of the users into your server
+			- since you control what is shown in the ChatGPT iframe
+		- breaks the confines of the traditional AI chat
+		- 
+	- OpenAI Agent Builder
+		- https://platform.openai.com/docs/guides/agent-builder
+		- need a developer account
+		- need some set up to get going
+			- authentication
+		- create button
+			- nodes go from Start to Agent
+			- can choose the reasoning levels for each
+			- can add tools
+				- connect to MCP server
+				- do a web search
+		- highlights the node it is on
+		- more complicated example
+			- connects to MCP server deep wiki
+			- makes state variable
+				- which_library
+				- picocss
+			- tells an agent that it answers questions about a certain tool##setsuptheagent
+			- then as the user, he can ask "how do I install this library"
+		- another node: guardrails
+			- enables you to clean input for an agent:##candoguard
+			- can't get through##jailbraksdfjk
+	- ChatKit
+		- frontend JavaScript library developed by OpenAI for building chat interfaces that integrate with AI models and agents
+		- part of OpenAI’s broader AgentKit ecosystem
+		- designed to save time and simplify the front-end development of AI chat interfaces, allowing developers to plug in polished chat UIs directly into React, Next.js, or standard web apps
+		- is not a chatbot, model, or backend service. It only handles the user interface layer
+	- vibe coding
+		- AI does the grunt work
+			- we do the parts that require judgement, context and clarity
+		- use cases
+			- prototyping
+			- exploration
+			- internal projects
+			- learning new technologies
+			- scripting and automation
+		- moves developer from implementor to orchestrator
+	- Bolt
+		- create full applications with a prompt
+		- you have access to code, but you are starting from momentum instead of from scratch
+	- Codex
+		- from OpenAI
+		- Codex was the successful prototype for coding LLMs
+		- released Jun 2022
+		- descendant of GPT-3
+		- https://openai.com/codex
+		- fine-tuned for programming and code generation
+		- foundational engine that originally powered GitHub Copilot
+			- when GitHub Copilot was first launched as a technical preview, it was powered exclusively by OpenAI Codex
+			- Currently, GitHub Copilot uses a suite of models developed by OpenAI and Microsoft
+	- trend
+		- it used to be the goal of the developer was to think like the machine
+		- mechanics became the goal
+		- but today, AI tools can respond to intent in natural language
+		- we're teaching machines to understand us, instead of making humans understand machines
+	- Gemini Diffusion
+		- flips how language models work
+		- generates entires sections of text at once, not one word after another
+		- 1500 tokens per second
+			- fastest model to date is around 330 per second
+			- many times faster
+		- access here: https://deepmind.google/models/gemini-diffusion
+			- wait list (2025-10-14)
+		- the website I use Gemini on has 2.5 flash
+		- in generating prompts for Midjourney, it make some mistakes, e.g. with commas
+		- test: create a tetris game
+			- diffusion created it but the pieces go off the board
+			- ran again and it work better
+		- you can edit the prompt and it changes a large text immediately, in real time
+	- OpenAI's o3 model
+		- currently most advanced (2025-10-13)
+		- build for power not speed
+		- 4 out-of 4 reliability test
+			- given a problem four times
+			- needs to get a correct answer each time
+		- best for problems that require clear and reliable reasoning
+		- it is not a model you chat with
+			- if you need to chat with a model for brainstorming, use GPT-4o or o4-mini instead
+			- asking a base model like GPT-4o or o4-mini a deep question is like suddenly asking someone a deep question
+			- instead, for deep questions that require like reasoning, use o3
+				- like giving someone a day to prepare a report
+		- compared o3 and o3-pro
+			- asked to create an onboarding program
+			- o3 was faster (9 seconds insteead of 21 minutes)
+			- o3-pro slower, minutes instead of seconds, and more expensive
+			- not significantly better that it was worth the 20 minutes
+			- o3 had a 87% cost in price
+			- o3-pro more affordable
+			- 
+				
+	- ChatGPT Agent
+		- ChatGPT can now call upon a new category of tools
+			- can use a computer, browser and terminal to solve problems
+			- starts a virtual computer
+				- searches through different websites
+				- you can select "take over browser" at any time
+					- this will happen automatically if it has to log into a site
+			- negatives
+				- it gets confused sometimes
+				- security concerns
+		- ChatGPT Operator
+			- much the same as Agent
+			- ChatGPT can use operator while reasoning
+			- 
+	- ChatGPT evolution
+		- with the o-series, it got the ability to reason through problems
+		- 2025-04:Introducing OpenAI o3 and o4-mini
+			- https://openai.com/index/introducing-o3-and-o4-mini
+	- perplexity comet
+		- Comet is an AI browser based on Chromium
+	- perplexity sonar
+		- specialized search feature combines search with real-time data from news and social media
+	- AI analysis websites
+		- https://artificialanalysis.ai
+	- GPT-oss
+		- gpt-oss-120b
+		- gpt-oss-20b
+		- OSS playground
+			- https://gpt-oss.com
+				- sign in with hugging face
+					- AI company in NLP
+					- the GitHub of machine learning
+			- doesn't have access to tools, can't check the Internet
+			- uses "mixture of experts"
+			- Qwen3 won
+				- developed by the Tongyi Lab under Alibaba Group
+		- small enough for phone, laptop
+		- can process sensitive requests, don't need the Internet
+		- a push for standards so AI tools can work together
+		- how to use them
+			- available at hugging face
+			- use LLM Studio
+			- Ollama
+		- responses API
+			- https://platform.openai.com/docs/api-reference/backward-compatibility
+			- allows developers to programmatically retrieve, manage, or stream model-generated responses
+		- tool calling
+			- the ability to use third party tools which reasoning
+	- O3-pro
+		- reasoned for a long time
+	- Claude
+		- has o3 and o4 reasoning models
+	- ChatGPT-5
+		- uses a router to decide how it should approach answering
+		- you can trigger it by saying, think hard, so it will think longer
+		- dropdown available in plus or pro
+		- in ChatGPT-4 you chose between O3 or O4
+		- three version
+			- nano = 27 seconds
+			- mini = 13 seconds
+			- regular = 7 minutes
+		- Grok4 a bit better in scientific reasoning
+		- reduces hallucination
+			- asks about a non-existent person
+		- recueds sycophancy
+		- health bench
+			- scores high when you ask about health
+		- new features
+			- almost nothing
+			- personalization
+		- programming
+			- hit and miss
+			- creates a dashboard easily
+	- vibe-coding
+		- use cases
+			- non-technical professionals
+			- professionals with 
+				- simple projects
+				- temporary projects
+				- non-public-facing projects
+				- well-tested projects 
+		- Windsurf
+			- a chat-first developing system
+			- built for workflow automation
+			- eliminates mode switching
+			- more streamlined than cursor
+			- offers cascade view
+				- visual code mapping
+		- pushes developers into a systems design role
+			- focus less on how, and more on what and why
+			- making product decisions
+		- less popular with industries such as
+			- banking
+			- healthcare
+			- anywhere that there is a high amount of privacy and sensitivity around information
+				- but even here, can be used in marketing, customer service, etc.
+		- examples
+			- take a YouTube video and turn it into an SEO-optimized blog post, and publish it on a Wordpress website
+				- projects like this are accomplished ca. 80% with vibe-coding
+				- still space for people to go in and finish e.g. the SEO optimization, or extend it, etc.
+		- advice
+			- start looking and testing out all of the AI tools
+		- future 2026 and beyond
+			- developers will be managing AI agents
+				- not managing the code base
+			- a radical uptake in productivity
+			- as jobs are taken, new jobs will be created, but it is still unclear what they will be
+	- MCP 
+		- Model Context Protocol
+		- a standardization of how AI agents are interacting with each other
+		- analogy: USB-C
+			- both are universal connectors
+		- introduced by Anthropic
+		- what can MCP servers do
+			- provide resources to specific data
+			- create reusable prompt templates and workflows
+			- enable LLMs to perform actions
+			- not yet implemented (too many threat surfaces)
+				- request completions from LLMs
+				- define boundaries in which servers can operate
+		- what can you do with them
+			- a company can build an MCP servers that customers can interact with certain data (like an API but for LLMs)
+	- prompt vs context engineering
+		- prompt engineering
+			- the art of getting an LLM to do what you want it to do
+		- context engineering
+			- providing your AI agent just the right about of information so it knows what to do
+			- helps data engineers to move into AI field
+			- don't flood the context with too much information
+			- monitoring what he AI does with the information, and learning from this
+			- how is it relevant for machine learning
+				- same as feature engineering in machine learning
+			- tools
+				- MCP - Model Context Protocol
+					- a standardization of how AI agents are interacting with each other
+	- AI-agent-workflows
+		- structured sequences of tasks where autonomous AI agents, guided by reasoning and tools, collaborate to achieve complex goals by dynamically processing information and making decisions.
+	- learning mode
+		- Copilot
+			- .github/chatmodes/Code Reviewer.chatmode.md
+				- instructions on how 
+			- or you could create a learning bot, etc.
+		- Claude Code
+			- output style: learning
+				- it quizzes you, asking you to write bits of code
+	- ChatGPT developer mode
+		- https://platform.openai.com/docs/guides/developer-mode
+		- beta feature (2025-10-03)
+		- Available in beta to Pro and Plus accounts on the web
+		- allows you to run MCP servers
+		- Zapier
+			- https://zapier.com
+			- a safe place to set up MCPs
+			- connects your favorite web apps, such as Gmail, Slack, and Salesforce, to move data between them automatically
+			- https://mcp.zapier.com for MCPs
+				- free account, login
+				- create MCP in Zapier (e.g. Google Drive)
+				- connect it ChatGPT
+				- then in your ChatGPT developer mode
+				- and then tell you ChatGPT to use your Zapier MCP
+				- you can tell ChatGPT to create a Google document for you
+				- when you ask, it finds the MCP, and then asks you if it can use it
+				- 
+			
+	- editors
+		- Windsurf
+			- built for efficiency and integration with cloud development workflows
+			- was not able to log in on Windows (2025-10-02), got it started but after 10 minutes still "Windsurf is starting up..."
+	- GPT-5-Codex
+		- optimized for agentic engineering
+		- can choose how long you want it to think
+		- can't spend more than 7 hours on complex tasks
+		- creates an agents.md file
+		- 
+	- Claude Code
+		- focused on understanding, generating, and explaining programming code across numerous languages
+	- GitHub models
+		- https://docs.github.com/en/github-models
+		- takes you through the entire AI development workflow - from initial experimentation with different models, through testing and evaluation
+	- Claude 3 Opus and Sonnet
+		- Opus 
+			- most powerful and capable model in Anthropic's Claude 3 family
+			- flagship model is designed for enterprise-scale challenges
+		- Sonnet
+			- middle-tier, balanced model in Anthropic's Claude 3 family
+		- Haiku
+			- Anthropic's fastest and most cost-effective model in the Claude 3 family
+	- desktops
+		- Claude Desktop
+			- developed by Anthropic
+			- use Claude, directly from your computer's desktop, rather than just through a web browser
+		- ChatGPT Desktop
+	- LLM websites
+		- https://chatgpt.com - strong conversational abilities
+		- https://www.perplexity.ai - real-time web citations
+		- https://claude.ai - long-memory, humanlike tone
+		- https://gemini.google.com - multimodal capabilities, good at describing what is in a photo
+		- https://chat.deepseek.com - reasoning-focused, thinks out loud
+		- https://you.com -  apparently privacy centric
+		- https://mistral.ai - European LLM (Paris) with transparency, fast
+	- machine learning
+		- supervised
+		- unsupervised
+		- reinforcement
+	- neural networks
+		- model human brain
+		- identify patterns in data
+		- CNN: Convolutional Neural Networks
+			- images
+		- RNN: Recurrent Neural Networks
+			- time-series data
+	- NLP: natural language processing
+		- text representation
+			- bag of words
+			- TF-IDF
+			- word embeddings: Word2Vec, GloVe
+		- transformer models
+			- BERT
+			- GPT (Generative Pre-trained Transformer)
+		- LLMs
+			- definition
+				- generate human-like text, understand context, perform complex language tasks
+			- GPT-4
+				- GPT-4o
+					- improved verseion of GPT-4
+						- first model to integrate text, image, audio
+						- 2x faster
+						- 50% cheaper
+						- free for everyone
+						- when use limits, back to GPT-3.5
+					- can interrupt
+					- can respond to your emotional state
+					- ChatGPT desktop app, Mac only
+				- GPT
+					- Generative Pre-Trained Transformer
+					- tries to infer your intent
+				- difference between GPT-3 and GPT-4
+					- GPT-4 
+						- does reasoning better
+						- is slower
+						- uses more power, so can be more costly
+						- used by Microsoft Bing and Open Office
+						- in the top 10% of law exams
+						- inputs
+							- URLs
+							- up to 25,000 words of text (Chat GPT only 3,000)
+						- steerability is better
+						- can understand photos and graphics						
+					- both
+						- trained on data before 2021
+					- Chat GPT
+						- November 2022
+						- reached 1 million users in 5 days
+						- it creates new content
+						- has to do with how people write sentences
+						- Open AI
+							- DALL-E2
+								- generates images from textual descriptions
+							- Whisper
+								- speech recognition
+						- autoregressive
+							- trying to predict results based on past values
+							- it tries to understand what you mean
+							- helps humans iterate on ideas		
+			- Claude
+				- developed by Anthropic (founded 2021 San Francisco)
+				- was early
+				- has very long context length
+				- Claude 3.5
+					- released June 2024
+					- tutorial talked about Claude 3.5 Sonnet
+				- with the API you can pay for it to use applications on your computer
+				- artifacts
+					- news standard for interacting with prompts
+				- can access it via AWS Bedrock
+					- simplifies the process of building, training, and deploying machine learning models at scale
+					- AWS Bedrock is a fully managed service that provides access to high-performing foundation models from leading AI companies through a single API
+						- Amazon Titan
+						- Anthropic's Claude
+			- Gemini	
+				- flagship LLM for Google
+				- most advanced LLM for multimodal AI (text, code, images, audio, video)
+				- Available via Google AI Studio and Vertex AI
+				- "desperately wants to be cool"
+				- Feb 2024: Google renamed Bard to Gemini, phased out the Bard name
+				- build to compete with OpenAI's GPT
+				- Gemini Flash
+					- lighter, faster version of Google's Gemini AI models, designed for low-latency, cost-efficient AI applications
+				- comes in three versions:
+					- Nano
+						- on device usage
+						- the smallest model
+						- for small scale and mobile applications
+					- Pro
+						- intermediate level projects
+					- Ultra
+						- most advanced
+						- in private preview
+						- large scale applications
+				- integrated with Google Cloud services such as Vertex AI
+				- processes image, text and video simultaneously
+					- a quite unique characteristic 
+				- RAG - Retrieval Augmented Generation
+					- looks up information first
+			- Gemma
+				- Google
+				- super lightweight & optimized for efficiency
+				- best for laptops
+				- a small, open-source LLM designed for on-device AI and local deployments
+				- Applications needing lightweight, local AI
+				- Open-Source & Free – Can be fine-tuned for custom applications
+				- two flavors
+					- RecurrentGemma
+					- CodeGemma
+					- PaliGemma
+				- AI Overviews
+			- Gemini Flash vs. Gemma
+				- Gemini Flash - fast, cost-effective cloud AI for chatbots, real-time apps, or streaming AI responses
+				- Gemma - open-source, on-device LLM for offline applications, fine-tuning, or edge computing
+			- BERT
+				- Google
+				- encoder-based, meaning it reads entire input sequences at once rather than generating text sequentially
+				- if you need deep NLP understanding for tasks like search, classification, and embeddings
+			- OpenAI o1
+				- full version Dec. 5, 2024
+				- better than GPT-4o in mathematics
+					- but GPT-4o is 4x faster      
+				- reaches PhD levels for reasoning
+				- not here to replace Gemini or GPT-4o
+				- less optmial for doing simple tasks
+				- more suitable for tasks that require data analysis
+				- it's slow and expensive to run
+				- less hallucinations or inaccuracies
+			- DeepSeek R1
+				- faster
+			- Qwen2.5
+			- Mistral
+				- by Mistral AI
+				- text generation, summarization, and question answering
+				- lightweight and efficient, which is great for faster processing and lower resource consumption
+			- Mistral 7B
+				- Fastest & most efficient open model. Great for small devices.
+			- Mixtral (Mistral MoE)
+				- Stronger reasoning than DeepSeek-7B (due to Mixture of Experts).
+			- Llama
+				- by Facebook
+				- open-source
+				- state-of-the-art results
+				- strong multilingual capabilities
+				- better at creative writing
+			- Phi 
+				- by Google DeepMind
+				- designed to handle complex problem-solving tasks
+				- can process and generate not just text but also images, audio, and video
+	- video generation
+		- Sora
+			- OpenAI has not publicly released Sora for general use (2025-02-06)
+			- stars with a noisy video, then refines it
+	- image generation
+		- DALL-E
+			- from OpenAI
+	- future
+		- Astra
+			- can understand and respond to inputs from multiple sources, including voice commands, visual cues, and text, enabling seamless communication across different media
+	- companies
+		- OpenAI
+			- OpenAI o1
+	- terms
+		- tokens
+			- a basic unit of text that an LLM (like GPT) processes
+			- LLMs charge based on token count
+			- "I love pizza." is 4 tokens
+			- 1,000 tokens ≈ 750 words 
+			- GPT-4-turbo:
+				- Input: $0.01 per 1,000 tokens
+				- Output: $0.03 per 1,000 tokens
+		- token context window
+			- the maximum number of tokens an LLM (Large Language Model) can process in a single request
+			- once the limit is reached, older tokens fall out of context, meaning the model "forgets" them
+			- Gemini Advanced has 1 million token context window
+			- currently LLMs have context lengths between 32,000 - 200,000
+	- tools
+		- rerankers
+			- BERT-based Rerankers – AI models like MonoBERT, DuoBERT improve search result precision.
+			- Learning to Rank (LTR) – Uses machine learning to optimize ranking functions.
+		- Copilot Studio
+			- developer experience helpful but not required
+			- can build copilot extensions in VSCode
+		- Team Copilot
+			- acts as a meeting facilitator
+			- acts as a project manager
+		- LM Studio
+			- desktop application that allows users to run and interact with local AI models
+		- Google AI Studio
+			- https://aistudio.google.com
+			- a web-based tool for experimenting with and integrating Google's Gemini AI models (formerly Bard)
+		- Vertex AI 
+			- Google Cloud’s machine learning (ML) platform
+			- much cheapter than GPTo
+			- context caching
+				- helps LLMs (like Gemini) remember and reuse previous interactions efficiently
+			- difference
+				- Google AI Studio - quickly experiment with Gemini models or get an API key for simple AI-powered apps
+				- Vertex AI - need to train, fine-tune, or deploy custom ML models with advanced MLOps tools
+		- Microsoft Security Copilot
+			- helps security teams detect, investigate, and respond to threats using machine learning and threat intelligence
+		- Azure AI Studio
+			- Microsoft Prompt Flow
+	- services
+		- GitHub models
+		- Google Colab
+			- short for Google Colaboratory, is a free, cloud-based platform provided by Google that allows users to write, run, and share Python code in a Jupyter Notebook environment. It is particularly popular for machine learning (ML), data analysis, and AI development because it provides free access to GPU (Graphics Processing Unit) and TPU (Tensor Processing Unit) resources, which are essential for training large machine learning models.
+		- GitHub Copilot Extensions
+		- GitHub Copilot for Azure
+		- create copilots in Shaej
+	- frameworks and libraries
+		- TensorFlow
+		- Keras
+		- Theano
+			- Keras, highlights integrating it with TensorFlow and Theano backends
+		- PyTorch
+			- PyTorch provides a powerful data structure called a tensor
+			- PyTorch integrates well with other libraries like NumPy, SciPy, and Cython for scientific computing, as well as with popular libraries such as TensorBoard for visualization and Optuna 
+		- Scikit-learn
+		- ResNet-50
+			- images
+		- Knime
+			- open-source data analytics, reporting, and integration platform that allows users to visually create data workflows using a drag-and-drop interface
+		- hugging face
+			- platform where the machine learning community collaborates on models, datasets, and applications
+		- LangChain
+			- a framework for building applications powered by large language models (LLMs), making it easier to manage prompts, chains of interactions, and external data sources
+			- created in 2021 by Harrison Chase at Hugging Face
+		- LangGraph
+			- structured, graph-based AI flows
+		- Semantic Kernel
+			- created in 2023 by Microsoft, helps developers integrate LLMs into workflows, enabling tasks like reasoning, planning, and interacting with external APIs or databases. The framework allows for chaining multiple tasks and managing the flow of information between them
+- partnerhips
+	- Microsoft and Open AI
+- Python tools		
+	- PyCharm
+		- released 2010 by JetBrains
+		- has since become primary platform
+	- Jupyter Notebook
+		- created 2015
+		- an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text
+		- for scientific computing
+		- enables you to share your ideas about code
+		- about sharing ideas
+		- documents are visually appealing
+		- cons
+			- lacks features for complex projects
+			- you have to run cells in sequence
+			- each cell effects the overall global state space
+- jobs
+	- MLOps
+		- Machine Learning Operations
+- lingo
+	- "write a RAG application"
+		- Retrieval-Augmented Generation
+		- RAG is a design pattern in AI where a retrieval system and a generation model are combined to improve the quality and relevance of AI-generated responses. It's often used in applications like chatbots, question-answering systems, or knowledge retrieval tools.
+- upcoming
+	- DeepSeek's R1 model
+		- opensource
+	- ByteDance's Doubao-1.5-pro
+		- by parent of TikTok
+		- outperforms ChatGPT
+
+- tangential
+	- Robinhood
+		- https://robinhood.com
+- podcasts
+	- https://www.youtube.com/watch?v=aNCkvsVsotM&t=150s
+- hardware
+	- NPU
+		- Neural Processing Unit
+		- Google calls them Tensor Processing Units
+		- Apple calls them a Neural Engine
+		- Microsoft Copilot PCs = 45 trillion operations per second
+		- important for edge computing
+		- NPUs can run a small language model, like Phi or Gemma
+	- Computer + Copilot
+		- over 40 language models
+			- Phi-3-small (7B paramters)
+			- Phi-Silica
+				- designed to run on Copilot PCs
+				- native support for pytorch 
+		- native support for PyTorch
+		- expanding partnership with hugging face
+- applications
+	- Cocreator
+		- demo: https://www.youtube.com/watch?v=VBRYaeK_cT0
+- image generators
+	- Imagen 3
+		- Google
+	- Sora
+		- OpenAI
+	- VO
+		- Google DeepMind
+- prompt engineering
+	- can have
+		- instructions
+		- a question
+		- input data
+		- examples
+	- component of generative IA
+	- an LLM can prompt an LLM
+	- AIs will be talking to themselves and learning about each other
+	- LLMs creating text for text-to-image LLMs
+	- prompt engineering concerns itself with managing this at scale
+- image prompting
+	- GPT Vision
+		- input images to have them analyzed
+	- we used to have to do OCR
+	- LLava
+	- security issue
+		- e.g. white text on white background, not readable by humans but by machine
+- programmable assistants
+	- https://platform.openai.com/docs/assistants/overview
+	- you can create custom assistants with their own instructions and tools 
+	- you can spin up individual chats under each assistant without having to store the exchange on your end
+	- you can create as many assistants as you like
+	- you can upload documents for the assistants to be used by reference
+	- you can have as many threads as you want for each assistant
+	- each chat is stateful
+	- each run can have multiple steps
+	- assistants pass the entire thread to each run, so the token count for each run can consume a lot of tokens
+- generative AI
+	- basically they create rules to predict what is coming up next
+	- computers can map out patterns in an image to be able to recognize it again, e.g. a human face
+	- e.g. differences between parts of the face
+	- you can give it thousands of pictures of noses, it will create rules, then it could create new noses
+	- shortens the time it takes to handle repetitive tasks
+- tools
+	- https://www.compose.ai - texts
+	- https://deepfakesweb.com - deepfake videos
+	- editors  
+		- https://www.trae.ai
+		- https://www.cursor.com/
+		- https://codeium.com/windsurf
+		- https://v0.dev/ ein Chat Interface von Vercel in "Kooperation" mit ShadcnUI 
+		- https://n8n.io/
+		- https://flowiseai.com/
+- prompts
+	- menu site
+		- create a Next.js site with 6 pages that have icons in the menu, responsive with hamburger menu, TypeScript, Tailwind, professional but reduced look with light gray
+		- create a Next.js site with 6 pages that have icons in the menu, responsive with hamburger menu, TypeScript, Tailwind, professional but reduced look with light gray
+		- create a Nuxt 4 site with 4 pages that have icons in the menu, responsive with hamburger menu, TypeScript, Tailwind, professional but reduced look with light gray
+		- create a SvelteKit site with 4 pages that have icons in the menu, responsive with hamburger menu, TypeScript, Tailwind, professional but reduced look with light gray
+		- create a Angular site with 4 pages that have icons in the menu, responsive with hamburger menu, TypeScript, Tailwind, professional but reduced look with light gray
+		- create an Astro site with 4 pages that have icons in the menu, responsive with hamburger menu, TypeScript, Tailwind 4, professional but reduced look with light gray
+		- create a React site (newest version) with 6 pages, a file for each page, icons in the menu, responsive with hamburger menu, TypeScript, Tailwind, professional but minimalistic look in dark mode, nuanced colors and animations
+	- crud site
+		- create a Next.js site with one page that displays employee records from a JSON file, it enables the user to create, edit, delete, sort and search employees, the employees are stored in a JSON file and CRUD calls are made to backend API routes, the employee records have 7 fields of type string, number and date, the site has TypeScript, Tailwind 4, and a professional but reduced look with light gray, the site is responsive and cleverly solves horizonal scrolling of all fields in mobile view so that it is easy to edit records on a smartphone, use icons where appropriate
+		- create a Nuxt 4 site with one page that displays employee records from a JSON file, it enables the user to create, edit, delete, sort and search employees, the employees are stored in a JSON file and CRUD calls are made to backend API routes, the employee records have 7 fields of type string, number and date, the site has TypeScript, Tailwind 4, and a professional but reduced look with light gray, the site is responsive and cleverly solves horizonal scrolling of all fields in mobile view so that it is easy to edit records on a smartphone, use icons where appropriate
+		- create a SvelteKit site with one page that displays employee records from a JSON file, it enables the user to create, edit, delete, sort and search employees, the employees are stored in a JSON file and CRUD calls are made to backend API routes, the employee records have 7 fields of type string, number and date, the site has TypeScript, Tailwind 4, and a professional but reduced look with light gray, the site is responsive and cleverly solves horizonal scrolling of all fields in mobile view so that it is easy to edit records on a smartphone, use icons where appropriate
+		- create a Angular site with one page that displays employee records from a JSON file, it enables the user to create, edit, delete, sort and search employees, the employees are stored in a JSON file and CRUD calls are made to backend Node/Express server, the employee records have 7 fields of type string, number and date, the site has TypeScript, Tailwind 4, and a professional but reduced look with light gray, the site is responsive and cleverly solves horizonal scrolling of all fields in mobile view so that it is easy to edit records on a smartphone, use icons where appropriate, the Node/Express server and the frontend can be started simultaneously with one "npm run dev" command
+		- create a Astro site with one page that displays employee records from a JSON file, it enables the user to create, edit, delete, sort and search employees, the employees are stored in a JSON file and CRUD calls are made to backend Node/Express server, the employee records have 7 fields of type string, number and date, the site has TypeScript, Tailwind 4, and a professional but reduced look with light gray, the site is responsive and cleverly solves horizonal scrolling of all fields in mobile view so that it is easy to edit records on a smartphone, use icons where appropriate, the Node/Express server and the frontend can be started simultaneously with one "npm run dev" command	
+	- portfolio
+		- create an HTML/CSS/JS website that gets its data from an imported file data.js which has projects items that have a slug, title, description and loads an image from /images/<slug>.jpg, the site should look professional, colorful but not too flashy, use subtle icons, it's main purpose is to show projects with image/title/description that the user can click on to go look at the project, it should be clear what they have to click on, desktop and mobile views should look different but both easy to navigate
+	- for agents
+		- Siempre debo responder en español, no traducir nada al inglés. Primero, corregir el español que escribo por gramática y estilo, pero no repetir lo que escribí, solo corregirlo, es decir no escribir: "Tu frase original". Y no me digás que hice una buena pregunta, y no hay necesidad de cumplidos o decir que estás encantado de responder, etc.
+	- language quiz for Gemini
+		- Make a interactive quiz with 10 questions in Spanish at B2 level which tests my knowledge of por and para. Write only in Spanish, no English, with hints and explanations for correct and incorrect answers.
+		- Crea un cuestionario interactivo en español sobre temas de gramática B1, solo en español, da pistas y explicaciones a las respuestas.
+		- create an interactive quiz to test the Italian grammar topic when to use "da", "di" or no preposition, 10 questions with hints and explanations for right and wrong answers

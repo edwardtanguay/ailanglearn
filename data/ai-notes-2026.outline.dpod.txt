@@ -1,0 +1,54 @@
+- Cursor
+	- Git indicator issue
+		- https://forum.cursor.com/t/using-the-classic-vs-code-activity-bar/12149/2
+		- workbench.activityBar.orientation --> vertical
+	- go to Cursor settings
+		- CTRL-SHIFT-J
+	- Graphite
+		- https://graphite.com
+		- breaks up code into smaller pieces for AI to work on
+		- stacking
+			- to be split into a 'stack' of small branches.
+			- When you adjust Branch A, Graphite automatically syncs the parent branches (B and C).
+	- how to make a skill
+		- nnn
+	- todo
+		- skills
+		- agents.md
+		- install MCP servers, e.g. hetzner
+		- learn hooks
+	- videos
+		- VIDEO: [5 MCP servers in Cursor](https://www.youtube.com/watch?v=ieFR8fOkBng)
+		- x VIDEO: [How to Create & Use SKILLS.md in Cursor (2026)](https://www.youtube.com/watch?v=DfLL5_zbWGc)
+			- /.cursor/skills/api-creation-skill/SKILL.md
+			- format is general in Cursor, Antigravity, Claude
+			- mandatory:
+				- title
+				- description: when and why to use
+				- instructions: step by step
+			- optional
+				- templates, examples, notes, configuration, validation
+			- api-creation-skill
+				- creates various kinds of APIs, asks the user
+			- documentation-agent
+				- confusing
+		- x VIDEO: [Fireship Cursor 3](https://www.youtube.com/watch?v=JSuS-zXMVwE)
+			- Composer 2, benchmarks better than Opus and cheaper
+			- Cursor 3
+				- a home for your agents
+				- written in Rust
+				- has built-in browser
+					- just click on area and ask to change it
+		- x VIDEO: [Cursor 3.0 Tutorial for Beginners ](https://www.youtube.com/watch?v=PW8fo_SrsqU)
+			- for people who have never used an IDE
+			- hooks
+				- do something when an agent is finished
+			- .mdc = markdown files in Cursor rules format
+			- rules = what the AI can and can't do
+			- the more advanced you get, plan mode is not needed anymore
+			- ask: like ChatGPT
+				- ask about any file
+			- shows how you can ask numerous agents to do this simultaneously
+		- VIDEO: [Cursor 3.0 the new King](https://www.youtube.com/watch?v=la_tAgBKqO0)
+		- VIDEO: [5 tips to make you a PRO at Cursor](https://www.youtube.com/watch?v=YtTWNzOtkxU)
+		- VIDEO: [25 Cursor Tips](https://www.youtube.com/watch?v=HlG_cYRydHY)
