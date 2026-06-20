@@ -6,6 +6,8 @@
 	- carrots
 	- broccoli
 	- spinach
+	- lettuce
+	- tomatoes
 - colors
 	- red
 	- green
