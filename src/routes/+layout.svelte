@@ -58,8 +58,8 @@
 					<span class="text-[10px] text-gray-400 font-mono tracking-widest uppercase">{BRAND_SUFFIX}</span>
 				</div>
 			</a>
-			<div class="text-[11px] font-mono italic text-yellow-400/90 mt-1 pr-12 md:pr-0">
-				<span>This site made by <a href="https://tanguay.info" target="_blank" rel="noopener noreferrer" class="underline text-yellow-300 hover:text-yellow-100 transition-colors font-semibold">Edward</a> with SvelteKit 5.0 and Go, see <a href="https://github.com/edwardtanguay/ailanglearn" target="_blank" rel="noopener noreferrer" class="underline text-yellow-300 hover:text-yellow-100 transition-colors font-semibold">the code</a></span>
+			<div class="text-[11px] font-mono italic text-yellow-600/85 mt-1 pr-12 md:pr-0">
+				<span>This site made by <a href="https://tanguay.info" target="_blank" rel="noopener noreferrer" class="underline text-yellow-500/90 hover:text-yellow-300 transition-colors font-semibold">Edward</a> with SvelteKit 5.0 and Go, see <a href="https://github.com/edwardtanguay/ailanglearn" target="_blank" rel="noopener noreferrer" class="underline text-yellow-500/90 hover:text-yellow-300 transition-colors font-semibold">the code</a></span>
 			</div>
 		</div>
 		<button 
@@ -96,8 +96,8 @@
 					<span class="text-xs text-slate-400 font-mono tracking-widest uppercase">{BRAND_SUFFIX}</span>
 				</div>
 			</a>
-			<div class="text-[11px] font-mono italic text-yellow-400/90 mt-1">
-				<span>This site made by <a href="https://tanguay.info" target="_blank" rel="noopener noreferrer" class="underline text-yellow-300 hover:text-yellow-100 transition-colors font-semibold">Edward</a> with SvelteKit 5.0 and Go, see <a href="https://github.com/edwardtanguay/ailanglearn" target="_blank" rel="noopener noreferrer" class="underline text-yellow-300 hover:text-yellow-100 transition-colors font-semibold">the code</a></span>
+			<div class="text-[11px] font-mono italic text-yellow-600/85 mt-1">
+				<span>This site made by <a href="https://tanguay.info" target="_blank" rel="noopener noreferrer" class="underline text-yellow-500/90 hover:text-yellow-300 transition-colors font-semibold">Edward</a> with SvelteKit 5.0 and Go, see <a href="https://github.com/edwardtanguay/ailanglearn" target="_blank" rel="noopener noreferrer" class="underline text-yellow-500/90 hover:text-yellow-300 transition-colors font-semibold">the code</a></span>
 			</div>
 		</div>
 
