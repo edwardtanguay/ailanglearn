@@ -46,17 +46,22 @@
 
 	<!-- Mobile Top Header Bar -->
 	<header class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 bg-gray-950/80 backdrop-blur-md border-b border-gray-900 md:hidden">
-		<a href="/" class="flex items-center gap-3" onclick={closeMenu}>
-			<!-- Dynamic SVG Logo -->
-			<div class="relative w-8 h-8 shrink-0 rounded-lg bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 p-0.5 shadow-md shadow-indigo-500/20">
-				<div class="w-full h-full bg-gray-950 rounded-[6px] flex items-center justify-center">
-					<NotebookPen class="w-4 h-4 text-indigo-400" />
+		<div class="flex flex-col gap-1">
+			<a href="/" class="flex items-center gap-3" onclick={closeMenu}>
+				<!-- Dynamic SVG Logo -->
+				<div class="relative w-8 h-8 shrink-0 rounded-lg bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 p-0.5 shadow-md shadow-indigo-500/20">
+					<div class="w-full h-full bg-gray-950 rounded-[6px] flex items-center justify-center">
+						<NotebookPen class="w-4 h-4 text-indigo-400" />
+					</div>
 				</div>
+				<div class="flex flex-col">
+					<span class="text-[10px] text-gray-400 font-mono tracking-widest uppercase">{BRAND_SUFFIX}</span>
+				</div>
+			</a>
+			<div class="text-[11px] font-mono italic text-yellow-400/90 mt-1 pr-12 md:pr-0">
+				<span>This site made by <a href="https://tanguay.info" target="_blank" rel="noopener noreferrer" class="underline text-yellow-300 hover:text-yellow-100 transition-colors font-semibold">Edward</a> with SvelteKit 5.0 and Go, see <a href="https://github.com/edwardtanguay/ailanglearn" target="_blank" rel="noopener noreferrer" class="underline text-yellow-300 hover:text-yellow-100 transition-colors font-semibold">the code</a></span>
 			</div>
-			<div class="flex flex-col">
-				<span class="text-[10px] text-gray-400 font-mono tracking-widest uppercase">{BRAND_SUFFIX}</span>
-			</div>
-		</a>
+		</div>
 		<button 
 			class="p-2 rounded-lg border border-gray-800 bg-gray-900/60 hover:bg-gray-800 text-gray-200 hover:text-white transition-all cursor-pointer z-50"
 			onclick={toggleMenu}
@@ -79,7 +84,7 @@
 		{isMenuOpen ? 'translate-x-0' : 'translate-x-full'}"
 	>
 		<!-- Desktop Header/Branding -->
-		<div class="hidden md:flex items-center gap-3 px-6 py-8 border-b border-gray-900/50">
+		<div class="hidden md:flex flex-col gap-2 px-6 py-8 border-b border-gray-900/50">
 			<a href="/" class="flex items-center gap-3">
 				<!-- Brand Logo -->
 				<div class="relative w-10 h-10 shrink-0 rounded-xl bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 p-0.5 shadow-lg shadow-indigo-500/20">
@@ -91,6 +96,9 @@
 					<span class="text-xs text-slate-400 font-mono tracking-widest uppercase">{BRAND_SUFFIX}</span>
 				</div>
 			</a>
+			<div class="text-[11px] font-mono italic text-yellow-400/90 mt-1">
+				<span>This site made by <a href="https://tanguay.info" target="_blank" rel="noopener noreferrer" class="underline text-yellow-300 hover:text-yellow-100 transition-colors font-semibold">Edward</a> with SvelteKit 5.0 and Go, see <a href="https://github.com/edwardtanguay/ailanglearn" target="_blank" rel="noopener noreferrer" class="underline text-yellow-300 hover:text-yellow-100 transition-colors font-semibold">the code</a></span>
+			</div>
 		</div>
 
 		<!-- Nav Links -->
@@ -138,7 +146,7 @@
 	{/if}
 
 	<!-- Main content area -->
-	<main class="flex-1 min-w-0 z-10 pt-16 md:pt-0 overflow-y-auto h-screen flex flex-col">
+	<main class="flex-1 min-w-0 z-10 pt-24 md:pt-0 overflow-y-auto h-screen flex flex-col">
 		<div class="flex-1 flex flex-col">
 			{@render children()}
 		</div>
