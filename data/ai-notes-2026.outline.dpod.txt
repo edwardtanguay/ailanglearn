@@ -52,3 +52,129 @@
 		- VIDEO: [Cursor 3.0 the new King](https://www.youtube.com/watch?v=la_tAgBKqO0)
 		- VIDEO: [5 tips to make you a PRO at Cursor](https://www.youtube.com/watch?v=YtTWNzOtkxU)
 		- VIDEO: [25 Cursor Tips](https://www.youtube.com/watch?v=HlG_cYRydHY)
+- AI-NOTES
+	- todo
+		- cursor: try Vercel plugin
+	- Cursor's model selection
+		- it has two modes: Auto and API
+			- Auto: it selects from premium models (its own Composer, but also ChatGPT, Claude Opus, etc.)
+				- there is no transparency
+				- you can't blacklist models
+				- however, thinking models like o3 are excluded
+					- because slower response times and higher costs
+			- API mode
+				- you pick a specific model you want to use, e.g. Claude Opus
+			- you can't pick o3, since it is available only in other plans
+				- o3 is from OpenAI
+	- overview of AI solutions
+		- Antigravity
+			- Google
+			- has Jules
+		- Cursor
+			- Anysphere
+			- composer agent
+			- offers Claude and GPT
+		- Codex 
+			- OpenAI
+			- terminal CLIs
+		- Claude Code 
+			- Anthropic
+			- operates directly within the developer's shell
+		- Copilot 
+			- GitHub
+			- Copilot Workspace 
+			- specialized Agent Mode
+		- Devin
+			- Cognition
+			- developer sandbox workspace
+			- virtual browser, terminal, and code editor
+		- Windsurf 
+			- Cognition
+			- built on VS Code 
+			- Cascade agent engine
+			- deep pair-programming context
+		- Cline 
+			- agentic workflows
+			- interfaces directly with terminal and file system
+			- Bring Your Own Model
+		- Aider
+			- CLI-first coding agent 
+			- optimized for git-native workflows over complex IDE graphical interfaces
+			- inside repository terminal
+			- writes concise git commit messages
+			- keeps version history clean and organized  
+		- Replit Agent
+			- browser-based, cloud-hosted environment
+		- Lovable
+			- web-based, full-stack AI app builder 
+			- optimized for vibe coding
+			- entirely in browser
+			- React, Vite, Tailwind CSS, Supabase
+			- provisions a real Postgres database
+			- authentication
+			- data schemas
+			- integrates Stripe for payments
+			- cleanly syncs to GitHub 
+	- quotes
+		- "we are excited to be building a world where agents feel like colleagues"
+		- "the Composer model is self-improving every 5 hours"
+	- Cursor agent mode
+		- multiple agents
+		- manage PRs
+		- agents in the Cloud
+		- cloud/agent handoffs
+	- VIDEO: https://www.youtube.com/watch?v=99VHENEKA9o
+		- title::Claude Code vs Antigravity 
+	- VIDEO: https://www.youtube.com/watch?v=dNlEsoYaDwI
+		- title::Google Antigravity 2.0 im Praxistest: Gemini 3.5 Flash, Subagents 
+		- when::2026-05-26
+	- VIDEO: https://www.youtube.com/watch?v=kH6eGktCtLY
+		- 
+	- VIDEO: https://www.youtube.com/watch?v=r5ZPO_O1ql4
+		- title::Google’s AntiGravity 2.0 Just Dropped
+	- x VIDEO: https://www.youtube.com/watch?v=HTKGyLar8AU
+		- title::Cursor 3 Agentic Coding
+		- you can tell cursor "use browser to test the fix"
+		- he's adding skills to an application, difficult to understand
+		- it shows the change on the browser page, highlighted
+		- Claude 4.6 Opus is something developers use on a daily basis
+			- $5 input tokens, $25 for output tokens
+			- Composer Fast has $1.5 input and $7.5 output tokens 
+		- he shows how to do a handoff from local to cloud
+			- I don't have a Cloud option on my dropdown
+			- he stopped the agent, right clicked on task, move to > Cloud
+			- you can click then on "move to local" to move it back
+		- he talks about "Marketplace" in Cursor 3
+			- but I don't have it on my 3.8
+				- it seems my "Customize" is his "Marketplace"
+	- VIDEO: https://www.youtube.com/watch?v=7cOAayWzYDY
+		- title:: Superpowers: New Spec Toolkit Ends Vibe Coding
+	- .. VIDEO: https://www.youtube.com/watch?v=la_tAgBKqO0&t=2s
+		- title::Cursor 3.0 AI coding setup revealed
+		- when::2026-05-13
+		- latest releases: Cursor 3 and Composer 2
+		- Cursor is sponsoring video
+		- Cursor 3
+			- completely rewritten in Rust for performance
+			- switch from desk to cloud and back
+		- Composer 2
+			- competitive and cheap
+			- Claude 4.7 Opus: input $5, output $25
+			- Composer 2: input $0.5, output $2.5
+			- he talks about a "Fast" variant, but I don't have it
+				- yes I do, I have to choose Composer 2, and then make it fast
+		- Agents Windows
+			- makes it easier to user agents
+			- to use worktrees, you have to create a repo
+			- quote:: "if you are using multiple agents in parallel, start using worktrees, they are a life saver"
+			- fc:: agent mode, run through modes; shift-tab
+			- quote:: the main focus is shifting to sessions and agents instead of coding ourselves
+		- Marketplace
+			- searches for Clerk, installs
+			- plugin Superpowers
+				- has skills, subagents, commands and hooks
+				- you can add to your person, or to projects
+				- uses it for code reviews
+				- 
+				
+			- @@10:55

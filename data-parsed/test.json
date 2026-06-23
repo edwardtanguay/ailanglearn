@@ -1,28 +1,58 @@
 [
   {
-    "name": "fruits",
-    "items": [
-      "apple",
-      "orange",
-      "banana"
-    ]
+    "level": 1,
+    "raw_text": "- fruits"
   },
   {
-    "name": "vegetables",
-    "items": [
-      "carrots",
-      "broccoli",
-      "spinach",
-      "lettuce",
-      "tomatoes"
-    ]
+    "level": 2,
+    "raw_text": "- apple"
   },
   {
-    "name": "colors",
-    "items": [
-      "red",
-      "green",
-      "blue"
-    ]
+    "level": 2,
+    "raw_text": "- orange"
+  },
+  {
+    "level": 2,
+    "raw_text": "- banana"
+  },
+  {
+    "level": 1,
+    "raw_text": "- vegetables"
+  },
+  {
+    "level": 2,
+    "raw_text": "- carrots"
+  },
+  {
+    "level": 2,
+    "raw_text": "- broccoli"
+  },
+  {
+    "level": 2,
+    "raw_text": "- spinach"
+  },
+  {
+    "level": 2,
+    "raw_text": "- lettuce"
+  },
+  {
+    "level": 2,
+    "raw_text": "- tomatoes"
+  },
+  {
+    "level": 1,
+    "raw_text": "- colors"
+  },
+  {
+    "level": 2,
+    "raw_text": "- red"
+  },
+  {
+    "level": 2,
+    "raw_text": "- green"
+  },
+  {
+    "level": 2,
+    "raw_text": "- blue"
   }
 ]
