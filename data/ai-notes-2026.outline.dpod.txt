@@ -66,10 +66,11 @@
 				- you pick a specific model you want to use, e.g. Claude Opus
 			- you can't pick o3, since it is available only in other plans
 				- o3 is from OpenAI
-	- overview of AI solutions
+	- overview of AI development solutions
 		- Antigravity
 			- Google
 			- has Jules
+			- editor-plus-agent-manager
 		- Cursor
 			- Anysphere
 			- composer agent
@@ -77,9 +78,11 @@
 		- Codex 
 			- OpenAI
 			- terminal CLIs
+			- for developers who like the CLI
 		- Claude Code 
 			- Anthropic
 			- operates directly within the developer's shell
+			- developer
 		- Copilot 
 			- GitHub
 			- Copilot Workspace 
@@ -88,6 +91,7 @@
 			- Cognition
 			- developer sandbox workspace
 			- virtual browser, terminal, and code editor
+			- a cloud sandbox
 		- Windsurf 
 			- Cognition
 			- built on VS Code 
@@ -97,6 +101,7 @@
 			- agentic workflows
 			- interfaces directly with terminal and file system
 			- Bring Your Own Model
+			- power users
 		- Aider
 			- CLI-first coding agent 
 			- optimized for git-native workflows over complex IDE graphical interfaces
@@ -115,6 +120,16 @@
 			- data schemas
 			- integrates Stripe for payments
 			- cleanly syncs to GitHub 
+		- groups and comparisons
+			- Editor-first
+				- Cursor, Windsurf, Copilot, Antigravity
+				- feel like pair programming
+			- Terminal-first
+				- Claude Code, Codex, Aider, Cline
+				- best when you work with them from the shell
+			- Cloud/browser-first
+				- Devin, Replit Agent, Lovable
+				- run mainly in a hosted environment
 	- quotes
 		- "we are excited to be building a world where agents feel like colleagues"
 		- "the Composer model is self-improving every 5 hours"
