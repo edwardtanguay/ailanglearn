@@ -49,9 +49,58 @@
 			- ask: like ChatGPT
 				- ask about any file
 			- shows how you can ask numerous agents to do this simultaneously
-		- VIDEO: [Cursor 3.0 the new King](https://www.youtube.com/watch?v=la_tAgBKqO0)
+		- .. VIDEO: [Cursor 3.0 the new King](https://www.youtube.com/watch?v=la_tAgBKqO0)
+			- categories::cursor
+			- when::2026-05-13
+			- howto::go to marketplace
+				- customize, Browse Marketplace
+			- plugin: superpowers
+				- what it has
+					- 14 skills
+					- 1 sub-agent 
+						- code-reviewer
+					- 3 commands
+						- brainstorm
+						- execute-plan
+						- write-plan
+					- 1 hook 
+						- sessionstart
+				- he uses it for code reviews mostly: "use superpowers to do a code review"
+			- howto::access rules,skills,subagents
+				- click "customize" then they are listed in a row
+				- or better: click on settings gear lower left near name, you get the menu
+			- howto::change appearance dark/light
+				- lower-left settings gear
+				- appearance
+			- howto::split the screen for for multiple agent tabs
+				- click on an agent (or new agent), then upper-right ellipsis
+			- he is clicking on "squash and merge" and "archive" for the agents
+			- writes "run in the browser"
+			- click on percentage to get breakdown
+			- howto::hide side bar
+				- CMD-B
+			- multi-root workspaces
+				- give your agent two repos that work together so it understands the context
+			- in cursor worktrees, you don't always have to create a PR
+				- you can just click "move to local" which "shifts it into our main"
+			- he says you can type /cloud
+				- but didn't work for me, I just got /in-cloud
+				- it says that "in-cloud will spin up an ubuntu vm in the cloud"
+					- cloud agents aren't in the free tier
+					- these are like GitHub actions or codespaces
+					- you have to configure your environment variables in the vm
+			- quote::the new skill for developers is 
+			- quote::the majority of developer responsibility now is shifting from manually coding to managing agent sessions and working with agents at scale, which means setting up agents.md files, creating skills, managing plugins, and using MCPs efficiently
 		- VIDEO: [5 tips to make you a PRO at Cursor](https://www.youtube.com/watch?v=YtTWNzOtkxU)
 		- VIDEO: [25 Cursor Tips](https://www.youtube.com/watch?v=HlG_cYRydHY)
+		- VIDEO: [5 AI Plugins/Skills](https://www.youtube.com/watch?v=hfBtjGMP3dY)
+			- when::2026-06-25
+		- find videos
+			- cursor worktrees
+			- mcp servers
+			- multitasking
+			- working with Cursor in the cloud
+		
 - AI-NOTES
 	- todo
 		- cursor: try Vercel plugin
@@ -79,6 +128,7 @@
 			- OpenAI
 			- terminal CLIs
 			- for developers who like the CLI
+			- this is used in .gitlab-ci.yml files as "stage: codex"
 		- Claude Code 
 			- Anthropic
 			- operates directly within the developer's shell
@@ -138,6 +188,13 @@
 		- manage PRs
 		- agents in the Cloud
 		- cloud/agent handoffs
+	- VIDEO: https://www.youtube.com/watch?v=beRkzajdSXc
+		- title::Maîtrise Google Antigravity en 10 minutes: Agents, Rules & MCP
+		- lang::fr
+	- VIDEO: https://www.youtube.com/watch?v=yUaIYBlIFdw
+		- title::Créer une app avec Google Antigravity (sans savoir coder)
+		- lang::fr
+		- rank::4.9
 	- VIDEO: https://www.youtube.com/watch?v=99VHENEKA9o
 		- title::Claude Code vs Antigravity 
 	- VIDEO: https://www.youtube.com/watch?v=dNlEsoYaDwI
